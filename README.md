@@ -48,7 +48,7 @@ A delightful and interactive virtual pet desktop application built with Electron
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. 
 
 ---
 
