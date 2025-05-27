@@ -1,0 +1,58 @@
+{
+  "walk": {
+    "key": "walk",
+    "activity": true,
+    "weightInfo": {"genre": "move", "weight": 0.5},
+    "info": { "frameCount": 8, "frameRate": 8, "repeat": -1 },
+    "behavior": { "minDistancePercX": 0.3, "maxDistancePercX": 1, "speedX": 100 }
+  },
+  "run": {
+    "key": "run",
+    "activity": true,
+    "weightInfo": {"genre": "move", "weight": 0.3},
+    "info": { "frameCount": 7, "frameRate": 12, "repeat": -1 },
+    "behavior": { "minDistancePercX": 0.3, "maxDistancePercX": 1, "speedX": 150 }
+  },
+  "jump": {
+    "key": "jump",
+    "activity": true,
+    "weightInfo": { "genre": "move", "weight": 0.2 },
+    "info": { "frameCount": 13, "frameRate": 10, "repeat": 0 },
+    "behavior": {
+      "autoNext": true,
+      "minDistancePercX": 0.5,
+      "maxDistancePercX": 1,
+      "jumpDuration": 2
+    }
+  },
+  "idle": {
+    "key": "idle",
+    "activity": true,
+    "weightInfo": {"genre": "still", "weight": 0.9},
+    "info": { "frameCount": 8, "frameRate": 15, "repeat": -1 },
+    "behavior": { "duration": [10, 10, 15] }
+  },
+  "sleep": {
+    "key": "sleep",
+    "activity": true,
+    "weightInfo": {"genre": "still", "weight": 0.1},
+    "info": { "frameCount": 3, "frameRate": 15, "repeat": 0 },
+    "behavior": { "duration": [15,20, 30] }
+  },
+  "hurt": {
+    "key": "hurt",
+    "genre": "react",
+    "activity": false,
+    "weight": 0,
+    "info": { "frameCount": 6, "frameRate": 20, "repeat": 0 },
+    "behavior": { "autoNext": true }
+  },
+  "attack": {
+    "key": "attack",
+    "genre": "react",
+    "activity": false,
+    "weight": 0,
+    "info": { "frameCount": 4, "frameRate": 20, "repeat": 0 },
+    "behavior": { "autoNext": true }
+  }
+}

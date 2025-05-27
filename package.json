@@ -1,0 +1,21 @@
+{
+  "name": "virtual-pet-phaser",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "phaser": "^3.88.2",
+    "phaser3spectorjs": "^0.0.8"
+  },
+  "devDependencies": {
+    "electron": "^36.1.0",
+    "electron-reload": "^2.0.0-alpha.1"
+  }
+}
