@@ -32,6 +32,7 @@ A delightful and interactive virtual pet desktop application built with Electron
    npm start
    ```
 
+
 ## Usage
 - The pet will appear on your desktop in a transparent, click-through window.
 - Use the system tray icon to show/hide the pet or exit the application.
@@ -51,5 +52,9 @@ A delightful and interactive virtual pet desktop application built with Electron
 This project is licensed under the MIT License. 
 
 ---
+
+https://github.com/user-attachments/assets/1c269d28-384f-4569-864b-7ecef0745bd5
+https://github.com/user-attachments/assets/0cdf6797-9419-454f-9be7-1772ab6aaeed
+https://github.com/user-attachments/assets/4523e597-866c-46b3-b127-8a3f4298c7ee
 
 Enjoy your new virtual desktop companion! 
